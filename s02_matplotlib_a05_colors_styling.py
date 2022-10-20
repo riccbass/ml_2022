@@ -33,7 +33,10 @@ fig = plt.figure()
 ax = fig.add_axes([0, 0, 1,1])
 
 ax.plot(x, x, color='yellow', lw=2, marker='o') #RGB
-ax.plot(x, x + 1, color='red', lw=2, marker='+', ms=20) #RGB
+ax.plot(x, x + 1, color='red', lw=2, marker='+', ms=20, 
+        markerfacecolor='red', 
+        markeredgewidth=8,
+        markeredgecolor='orange') #RGB
 
 
 
