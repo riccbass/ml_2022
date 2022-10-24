@@ -1,4 +1,7 @@
 *.zip
 *.csv
+*.png
+*.jpg
 /.ipynb_checkpoints
 /bases
+**/bases/
